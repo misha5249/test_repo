@@ -49,7 +49,6 @@ text-transform: uppercase;
     text-align: center;
     width: 1600px;
 height: 600px;
-flex-shrink: 0;
 }
 .footer{
     width: 1600px;
@@ -58,22 +57,16 @@ flex-shrink: 0;
 }
 .title2{
 color: #212121;
-text-align: center;
 font-family: Roboto;
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+text-align: center;
 }
 .itemlink{
     color: #212121;
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
 }
 .itemlink:hover{
     color: #2196F3;
@@ -215,4 +208,12 @@ letter-spacing: 0.42px;
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.teamsection{
+    display: flex;
+    gap: 30px;
+}
+body {
+font-family: Roboto;
+line-height: normal;
 }
