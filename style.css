@@ -108,7 +108,7 @@ letter-spacing: 0.28px;
 
 }
 .hero-button {
-    color: #FFF;
+    color: #ffffff;
 text-align: center;
 font-size: 16px;
 font-weight: 700;
@@ -164,7 +164,28 @@ background: #2196F3;
     gap: 30px;
     margin-top: 94px;
 }
-.feature-item {
+.feature-item::before{
+    display: block;
+    content: ""; 
+    background-color: #F5F4FA;
+  background-position: center;
+  background-repeat: no-repeat;
+margin-bottom: 30px;
+ width: 270px;
+height: 120px;
+border-radius: 4px;
+}
+.feature-item:nth-child(1):before{
+    background-image: url(./img/antenna\.jpg);
+}
+.feature-item:nth-child(2):before{
+    background-image: url(./img/clock\.jpg);
+}
+.feature-item:nth-child(3):before{
+    background-image: url(./img/diagram\.jpg);
+}
+.feature-item:nth-child(4):before{
+    background-image: url(./img/astronaut\.jpg);
 }
 .feature-title {
     color: #212121;
@@ -173,6 +194,9 @@ font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 margin-bottom: 10px;
+}
+.feature-title::before{
+
 }
 .feature-text {
     color: #757575;
@@ -185,6 +209,8 @@ letter-spacing: 0.42px;
     margin-top: 118px;
 }
 .work-title {
+    margin-bottom: 50px;
+    text-align: center;
     color: #212121;
     font-family: Roboto;
     font-size: 18px;
