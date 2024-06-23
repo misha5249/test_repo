@@ -86,6 +86,9 @@ letter-spacing: 0.28px;
     height: 1px;
 }
 .hero {
+    background-image: url(./img/ilustration\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color : #2F303A;
     display: flex;
     height: 600px;
@@ -149,7 +152,14 @@ letter-spacing: 0.48px;
 margin-bottom: 50px;
 }
 .button:hover {
-   
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
 background: #2196F3;
 }
 .work-text{
@@ -213,7 +223,7 @@ letter-spacing: 0.42px;
     text-align: center;
     color: #212121;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 36px; /* 200% */
@@ -228,9 +238,52 @@ letter-spacing: 0.42px;
 .work-item {
     border: 1px solid #EEE;
 background: #FFF;
+height: 294px;
 }
 .work-img {
-    margin-bottom: 20px;
+
+}
+.work-portfolio{
+    margin-top: 118px;
+}
+.work-title-portfolio {
+    margin-top: 20px;
+    padding-left: 24px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+}
+.work-text-portfolio {
+    padding-left: 24px;
+    color: #757575;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
+}
+.work-list-portfolio {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+}
+.work-item-portfolio {
+    border: 1px solid #EEE;
+background: #FFF;
+width: 370px;
+height: 404px;
+}
+.work-item-portfolio:hover {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+.work-img-portfolio {
+
 }
 .team {
     background-color: #F5F4FA;
@@ -256,6 +309,9 @@ margin-bottom: 50px;
 border-radius: 0px 0px 4px 4px;
 background: #FFF;
 padding-bottom: 30px;
+
+/* material shadow v1 */
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 .team-img {
 }
