@@ -86,7 +86,8 @@ letter-spacing: 0.28px;
     height: 1px;
 }
 .hero {
-    background-image: url(./img/ilustration\ \(1\).jpg);
+
+    background-image: linear-gradient( rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(./img/ilustration\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color : #2F303A;
@@ -163,6 +164,7 @@ margin-bottom: 50px;
 background: #2196F3;
 }
 .work-text{
+    color: #2F303A66;
     margin-bottom: 20px;
 }
 
