@@ -68,11 +68,14 @@ letter-spacing: 0.28px;
     gap: 50px;
 }
 .contact-item {
+    
+
 }
 .contact-link {
     align-items: center;
     display: flex;
     color: #757575;
+    fill: #757575;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
@@ -82,6 +85,7 @@ letter-spacing: 0.28px;
 }
 .contact-link:hover{
     color: #2196F3;
+    fill: #2196F3;
 }
 .nav-link:hover{
 
@@ -181,28 +185,22 @@ background: #2196F3;
     gap: 30px;
     margin-top: 94px;
 }
-.feature-item::before{
-    display: block;
-    content: ""; 
-    background-color: #F5F4FA;
-  background-position: center;
-  background-repeat: no-repeat;
-margin-bottom: 30px;
- width: 270px;
-height: 120px;
-border-radius: 4px;
+.feature-item{
+
+}
+.feature-svg{
 }
 .feature-item:nth-child(1):before{
-    background-image: url(./img/antenna\.jpg);
+   
 }
 .feature-item:nth-child(2):before{
-    background-image: url(./img/clock\.jpg);
+ 
 }
 .feature-item:nth-child(3):before{
-    background-image: url(./img/diagram\.jpg);
+ 
 }
 .feature-item:nth-child(4):before{
-    background-image: url(./img/astronaut\.jpg);
+
 }
 .feature-title {
     color: #212121;
@@ -339,11 +337,23 @@ letter-spacing: 0.48px;
 .team-svg-list{
 display: flex;
 
-
+justify-content: center;
+align-items: center;
+}
+.bg-svg{
+    border: 1px solid #000;
+    width: 44px;
+    height: 44px;
 }
 .team-svg{
-    color: #000;
+    gap: 10px;
+    margin: 12px;
+    fill: #757575;
 }
+.team-svg:hover{
+
+}
+
 .footer {
     background: #2F303A;
     height: 252px;
