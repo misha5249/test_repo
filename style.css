@@ -258,6 +258,28 @@ letter-spacing: 0.42px;
 background: #FFF;
 height: 294px;
 }
+.work-wrap{
+    padding-top: 27px;
+    bottom: 74px;
+    width: 370px;
+    height: 70px;
+    position: relative;
+    background-color: #2F303ACC;
+    /* border: solid black; */
+}
+.work-wrap-title{
+    /* margin-top: 27px; */
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
 .work-img {
 
 }
